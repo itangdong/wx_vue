@@ -6,6 +6,16 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <script>
+      !function(n) {
+        var e = n.document, t = e.documentElement, i = 750, d = i / 100, o = "orientationchange" in n ? "orientationchange" : "resize"
+        var a = function () {
+          var n = t.clientWidth || 375;
+          n > 750 && ( n = 750), t.style.fontSize = n / d + "px"
+        };
+        e.addEventListener && (n.addEventListener(0, a, !1)), e.addEventListener("DOMContentLoaded", a, !1)
+      }(window);
+    </script>
   </head>
   <body>
     <noscript>
