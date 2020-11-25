@@ -1,4 +1,4 @@
-# test_wx
+# wx_vue
 
 ## Project setup
 ```
