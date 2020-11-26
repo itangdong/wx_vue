@@ -1,5 +1,10 @@
 # wx_vue
 
+## 注意
+- 配置本地host --->  127.0.0.1 i.tangdong.com
+- i.tangdong.com 为微信公众平台上的js安全域名
+- vue.config.js 里面配置的代理 target，window与mac写法有不一样的地方，如果localhost不行就改成127.0.0.1
+
 ## Project setup
 ```
 yarn install
